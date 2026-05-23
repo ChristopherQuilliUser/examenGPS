@@ -3,8 +3,8 @@
 // Compatible con Cloudflare Worker + TagoIO (BMP280)
 // ==========================================================
 
-const API_URL = "https://tago-worker-sinchi.xaviersinchi607.workers.dev/";
-const UPDATE_INTERVAL = 5000;
+const API_URL = "https://worker-quilli-gps.christopherquilli2006.workers.dev/";
+const UPDATE_INTERVAL = 1000;
 
 let map = null;
 let marker = null;
